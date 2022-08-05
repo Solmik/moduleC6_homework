@@ -1,0 +1,76 @@
+.body {
+	background-color: white;
+}
+.bar { 
+	top: 0;   left: 0; 
+	width: 100%;   height: 70px;
+	background-color: white; 
+	}
+
+.scrol {
+	margin-top: 30px;
+	width: 87%; /* ширина  блока */
+	margin-left: 45px;
+	outline: 2px solid #bad7ec; /* рамка */
+height:550px; /* высота  блока */
+background: #fff; /* цвет фона, белый */
+overflow-y: auto; 
+}
+
+.i1 {
+	margin-left: 50px;
+	margin-top: 15px;
+	width: 80%;
+	height: 30px;
+	border: 3px solid;
+	border-color: #bad7ec;
+	outline:none;
+  padding-left: 15px;
+}
+
+.btn {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  box-shadow: none;
+  cursor: pointer;   
+  margin: 5px 10px;
+  padding: 10px 15px;
+  border-radius: 1px;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: black;
+  background: #bad7ec;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  box-shadow: 0px 2px 8px 2px rgba(141,150,178,.3);
+  transform: scale(1.05);
+}
+
+.s1 {
+	outline: 2px solid #bad7ec;
+	border-radius: 5px;
+	padding:15px;
+	margin-left: 20px;
+	margin-top: 15px;
+	width: 50%;
+  color: #63afff;
+}
+.s2 {
+	outline: 2px solid #bad7ec;
+	border-radius: 5px;
+	padding:15px;
+	margin-left: 50%;
+	margin-top: 15px;
+	width: 47%;
+	color: #63afff;
+}
+.colortext {
+	color: black;
+	
+}
